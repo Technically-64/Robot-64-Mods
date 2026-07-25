@@ -1,6 +1,6 @@
 <html>
     <body>
-        <a style="font-size: 10; color:grey;">Original Robot 64 Mods by EmK530 - Website by Azzy</a>
+        <a style="font-size: 10; color:grey;" id="welcomeMessage">Click a category to get started!</a>
         <div class="topbar">
             <a class="title">Robot 64 Mods</a>
             <button class="topbar_button" id="main">Main</button>
@@ -157,6 +157,7 @@
             clearModPage()
             if (can_play_music) {
                 can_play_music = false
+                document.getElementById("welcomeMessage").textContent = "Original Robot 64 Mods by EmK530 - Website by Azzy"
                 music.play()
             }
             fetch(`${cat}.json`)
@@ -194,7 +195,6 @@
                 });
             })
         }
-        loadMods("Main")
         document.getElementById("main").onclick = function () {
             loadMods("Main")
         }
