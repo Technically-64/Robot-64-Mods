@@ -147,26 +147,18 @@
     <script>
         const mod_preview_template = document.getElementById("modPreviewTemplate")
         const mod_display = document.getElementById("mainModPage")
+        let can_play_music = true
         let music = new Audio("Music.mp3")
-        music.play()
-        async function fetchUserName(uuid) {
-            try {
-                const response = await fetch(`https://users.roblox.com/v1/users/${uuid}`);
-                if (!response.ok) {
-                    throw new Error(`http err - stat: ${response.status}`);
-                }
-                const data = await response.json();
-                return data.name;
-            } catch (error) {
-                console.error("fetch err", error.message);
-                return null;
-            }
-        }
+        music.loop = true
         function clearModPage() {
             mod_display.innerHTML = ""
         }
         function loadMods(cat) {
             clearModPage()
+            if (can_play_music) {
+                can_play_music = false
+                music.play()
+            }
             fetch(`${cat}.json`)
             .then(response => {
                 if (!response.ok) {
