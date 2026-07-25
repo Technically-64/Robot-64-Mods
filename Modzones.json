@@ -1,0 +1,165 @@
+{
+    "success": true,
+    "mods": [
+        {
+            "name": "Modzone A3",
+            "description": {
+                "brief": "A modzone with beestone tools and an improved level creator!",
+                "full": "A useful set of tools created for players who experiment with beestone! Includes level creator improvements and a custom select tool!"
+            },
+            "placeId": 9962449165,
+            "creator": {
+                "id": 132435007,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=9962449165&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 82.859596070066,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Modzone E3",
+            "description": {
+                "brief": "An easy way to see what the game is doing and test different scenarios.",
+                "full": "A simple modzone with an overlay that shows the values of important variables and also lets you enable different settings while playing."
+            },
+            "placeId": 11815074491,
+            "creator": {
+                "id": 71510352,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18707830995",
+                "yOffset": 25
+            },
+            "rating": 82.210277146536,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "mod zone",
+            "description": {
+                "brief": "Robot 64 with various hacks appliable to assist in glitch-hunting.",
+                "full": "The first mod zone by Pok\u00e9, containing useful settings like hitbox\/radius visibility, walk through walls, speed, invincibility and many more things."
+            },
+            "placeId": 5135837631,
+            "creator": {
+                "id": 171369101,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=5135837631&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 81.943422036492,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "mod zone 2!!!!!",
+            "description": {
+                "brief": "Robot 64 with a more detailed timer and some QoL changes for the BTT.",
+                "full": "Second installment of Pok\u00e9's mod zones, this one contains settings catered towards BTT speedrunners of the game."
+            },
+            "placeId": 6136401478,
+            "creator": {
+                "id": 171369101,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=6136401478&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 80.82958817868,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Modzone A1",
+            "description": {
+                "brief": "Have fun with many settings and try different game modes in this mod zone!",
+                "full": "This mod zone has WAY too many cool things to describe here, a custom settings menu with useful settings and special game modes you can play using \"New Game+\" such as everything being upside down!"
+            },
+            "placeId": 8469309737,
+            "creator": {
+                "id": 132435007,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=8469309737&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 70.87172182964,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Modzone A4",
+            "description": {
+                "brief": "A mod zone for testing floor warps, with features to simulate dex lag and more.",
+                "full": "A mod zone for testing floor warps, with features to simulate dex lag and more."
+            },
+            "placeId": 11685595976,
+            "creator": {
+                "id": 132435007,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=11685595976&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 60.709749288631,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "mod zone 4? how? why? since when?",
+            "description": {
+                "brief": "Robot 64 with the enemy table viewable for quantum physics.",
+                "full": "This is a technical mod zone which contains information about the enemy table on your screen."
+            },
+            "placeId": 6254083203,
+            "creator": {
+                "id": 171369101,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=6254083203&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 35.425431321764,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "mod zone 3!?!?!?!??",
+            "description": {
+                "brief": "Robot 64 with all entrances randomized!",
+                "full": "This mod zone is a randomizer which switches up many parts of the game, this also contains different variations like mod zone 3.5 and 3.75 with the higher numbers being more random."
+            },
+            "placeId": 6252154092,
+            "creator": {
+                "id": 171369101,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=6252154092&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 25.476091028988,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        }
+    ]
+}

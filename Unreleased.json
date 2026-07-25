@@ -1,0 +1,65 @@
+{
+    "success": true,
+    "mods": [
+        {
+            "name": "Robot 64 Minigames",
+            "description": {
+                "brief": "Minigames made specifically for Robot 64 movement! Play by yourself or with friends! Suggestions are welcome :D",
+                "full": "Minigames made specifically for Robot 64 movement! Play by yourself or with friends! Suggestions are welcome :D"
+            },
+            "placeId": 16562495424,
+            "creator": {
+                "id": 33937115,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18858450049",
+                "yOffset": 0
+            },
+            "rating": null,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "fart 25",
+            "description": {
+                "brief": "fart 25 tries to serve every thought of mechanics, and a quest to return the icecreams too! Currently in demo.",
+                "full": "fart 25 is a mod set after the defeat of the sun, where Papatopia suddenly notices that most of the ice creams have mysteriously disappeared! Society isn't happy, and now Beebo HAS to recover the ice creams to restore peace to Papatopia. But wait- there\u2019s more! Dr. Smar, Beebo's creator, is also on this mission!\r\n\r\nPlay as both Beebo and Dr. Smar, and discover new mechanics, cutscenes, fun stuff plenty of more waiting for you to check out!\r\n\r\nBet your imaginations on fart 25."
+            },
+            "placeId": 17242280430,
+            "creator": {
+                "id": 32316606,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/71182936776311",
+                "yOffset": 0
+            },
+            "rating": null,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 64 Co-op",
+            "description": {
+                "brief": "Play Robot 64 together, with your friends!",
+                "full": "What if robot 64 had ACTUAL multiplayer?\r\nPlay robot 64 with friends in the Robot 64 co-op mod, with most if not EVERYTHING syncing such as; Icecreams, candies, breakable boxes, items you can pick up, moving platforms, enemies, entire boss fights (yes, the final boss too) and more! You can even collide with other players!\r\nThis game is built upon the Robot 64 Engine by zKevin, but uses things from @D4WizardBoi's Robot 64 decomp (very turbo-thanks)"
+            },
+            "placeId": 135724931910003,
+            "creator": {
+                "id": 35206779,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/114703442649541",
+                "yOffset": 0
+            },
+            "rating": null,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        }
+    ]
+}

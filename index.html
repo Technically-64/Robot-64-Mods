@@ -1,666 +1,28 @@
 <html>
     <body>
+        <a style="font-size: 10; color:grey;">Original Robot 64 Mods by EmK530 - Website by Azzy</a>
         <div class="topbar">
             <a class="title">Robot 64 Mods</a>
             <button class="topbar_button" id="main">Main</button>
             <button class="topbar_button" id="kaizo">Kaizo</button>
-            <button class="topbar_button" id="odzones">Modzones</button>
+            <button class="topbar_button" id="modzones">Modzones</button>
             <button class="topbar_button" id="other">Other</button>
-            <button class="topbar_button" id="new" style="color: greenyellow">New!</button>
             <button class="topbar_button" id="unreleased" style="color: rgb(255, 241, 47)">Unreleased</button>
             <button class="topbar_button" id="all">All mods</button>
         </div>
-        <div class="mainmods">
-            <div class="mod_preview newmodoutline">
-                <a>
-                    Robot 64 Spleef: Again
-                </a>
-                <a class="mod_maker_username">
-                    by: momentum_x8
-                </a>
-                <div class="mod_image" style="background-image:
-                
-                url(Mods/Main/Robot\ 64\ Spleef/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Play spleef... With the Robot 64 Engine!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/114190300640061/Robot-64-Spleef-Again
-                        
-                        ">Play this mod</a>
+        <div id="mainModPage" class="mainmods">
+            <div class="mod_preview" id="modPreviewTemplate">
+                <a class="mod_name" id="modName"></a>
+                <a id="modCreator" class="mod_maker_username"></a>
+                <div id="modImage" class="mod_image"></div>
+                <a id="modRating" class="mod_rating"></a>
+                <div id="bottom" class="mod_bottom_container">
+                    <a id="briefDescription" class="mod_small_desc"></a>
+                    <button id="playButton" class="play_button">
+                        <a id="playButtonLink" class="play_button_text">Play this mod</a>
                     </button>
                 </div>
             </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Halloween Hack
-                </a>
-                <a class="mod_maker_username">
-                    by: BIGBOYS Flavoured
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Halloween\ Hack/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        GO TRICK OR TREATING!!!!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/73971056559416/Robot-64-Halloween-Hack
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Retro 64
-                </a>
-                <a class="mod_maker_username">
-                    by: Beyond the Sea Studios
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Retro\ 64/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Experience Robot 64 just like the old days!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/101387012617610/Retro-64
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 24: Treble & Bass
-                </a>
-                <a class="mod_maker_username">
-                    by: Valashire
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 24\ Treble\ &\ Bass/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        BETA DEMO 2.5 IS HERE!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/18363181565/Robot-24-Treble-Bass
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Tag
-                </a>
-                <a class="mod_maker_username">
-                    by: Silvaz
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Tag/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod where you can play tag with many other players on unique maps with features like modifiers!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/15633203115/Robot-64-Tag                        
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Revise
-                </a>
-                <a class="mod_maker_username">
-                    by: TumTomato
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Revise/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod that reimagines the Candy Aquarium and New Neocity with great design!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/15836468076/Robot-64-Revise
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    ttttt tt
-                </a>
-                <a class="mod_maker_username">
-                    by: Melody3
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/ttttt\ tt/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        This is a discontinued project which aimed to be a full fledged sequel to the original game
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/109831293186728/ttttt-tt
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-            
-            <div class="mod_preview">
-                <a>
-                    [BETA] Test Robot 64
-                </a>
-                <a class="mod_maker_username">
-                    by: Luca's BeezHouse
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/[BETA]\ Test\ Robot\ 64/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Dr. Smar is testing Beebo 
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/95624277911758/Test-Robot-64
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Adventure 64
-                </a>
-                <a class="mod_maker_username">
-                    by: hazelnot
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Adventure\ 64/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        An open-world-like Robot 64 mod.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/118764745282170/Adventure-64
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    PlayDB [Revival]
-                </a>
-                <a class="mod_maker_username">
-                    by: zuzaratrust
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/PlayDB\ [Revival]/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A revival of the good ol' PlayDB!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/18700559593/PlayDB
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-            
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Racing
-                </a>
-                <a class="mod_maker_username">
-                    by: Proflly
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Racing/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod where you race other players from the start of a level to a certain ice cream!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/15676619017/Robot-64-Racing
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-            
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Tycoon
-                </a>
-                <a class="mod_maker_username">
-                    by: Silvaz
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Tycoon/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        NEW Robot 64 Tycoon. Build your empire! Collect gears and get that sweet sweet candy. TYCOON TYCOON NEW
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/16393392548/ROBOT-64-TYCOON
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 67
-                </a>
-                <a class="mod_maker_username">
-                    by: TheCoolChocolate
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 67/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A fanmade sequel to Robot 64 with a new story and 6 new worlds to play!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/15571150529/Robot-67
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    R6646
-                </a>
-                <a class="mod_maker_username">
-                    by: entomatadotas
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/R6646/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Delve deeper and deeper into Beebo's unconscious mind.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/81499697878984/R6646-v0-1
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64: Ultimate Descent [BETA]
-                </a>
-                <a class="mod_maker_username">
-                    by: bucketdestroyer17
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Placeholder.jpg);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        100 floors of glitchless challenges for advanced casual players!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Trivia
-                </a>
-                <a class="mod_maker_username">
-                    by: TumTomato
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Trivia/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod where you can test your Robot 64 knowledge and experience many weird events!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/16016827692/Robot-64-Trivia
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64: Supreme Homerun
-                </a>
-                <a class="mod_maker_username">
-                    by: FunkyLittle_Fella
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Supreme\ Homerun/logo.webp)
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A challenging mod consisting of 100 floors of parkour, puzzles and pain!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/18375788916/Robot-64-Supreme-Homerun
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Endless Robot 64
-                </a>
-                <a class="mod_maker_username">
-                    by: Bighead Boulevard
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Endless\ Robot\ 64/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod about seeing how long you can last in an infinite gameplay loop of randomly generated levels!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/13924216331/Endless-Robot-64
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Smirk 64
-                </a>
-                <a class="mod_maker_username">
-                    by: AmayzingPlays
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Smirk\ 64/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Play as Smirkie, on a quest to stop the corrupt director Cool Guy.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/17197546441/Smirk-64
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 + Plus
-                </a>
-                <a class="mod_maker_username">
-                    by: player5
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Plus/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Robot 64 with a new Frontflip move, some graphical changes and new levels.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/14374856202/Robot-64-Plus
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Nimbus!
-                </a>
-                <a class="mod_maker_username">
-                    by: MiguelDev11
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Nimbus!/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Play as Nimbu, exploring weird, strange and wacky worlds to collect gumdrops and destroy the moon!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/15713855945/Nimbus-a-robot-64-fangame
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64 Leveler
-                </a>
-                <a class="mod_maker_username">
-                    by: hahatitim
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Leveler/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Complete levels, get ice creams.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/19004319223/Robot-64-Leveler
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Knoddy Simulator [BETA]
-                </a>
-                <a class="mod_maker_username">
-                    by: Koopatoad64
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Placeholder.jpg);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Clean Knoddy's resort with your friends!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Super Robot Odyssey
-                </a>
-                <a class="mod_maker_username">
-                    by: rekitrelt
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Super\ Robot\ Odyssey/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        A mod inspired by Odyssey with a new moveset, powerups, new and modified levels, and more to come!
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/14838413991/Super-Robot-Odyssey-WIP
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="mod_preview">
-                <a>
-                    Robot 64: Let There Be Light
-                </a>
-                <a class="mod_maker_username">
-                    by: Robloxian908124
-                </a>
-                <div class="mod_image" style="background-image:
-
-                url(Mods/Main/Robot\ 64\ Let\ There\ Be\ Light/logo.webp);
-
-                "></div>
-                <div class="mod_bottom_container">
-                    <a class="mod_small_desc">
-                        Save a paralel papatopia from a mysterious being.
-                    </a>
-                    <button class="play_button">
-                        <a class="play_button_text" href="
-
-                        https://www.roblox.com/games/131124760625708/Robot-64-Let-there-be-light
-                        
-                        ">Play this mod</a>
-                    </button>
-                </div>
-            </div>
-
         </div>
     </body>
     <style>
@@ -670,6 +32,9 @@
             background-color: rgb(31, 30, 36);
             align-items: center;
             flex-direction: column;
+        }
+        .mod_rating {
+            color: greenyellow
         }
         .topbar {
             border-radius: 3px;
@@ -701,7 +66,7 @@
             padding: 5px;
             gap: 5px;
             border-radius: 6px;
-            display: flex;
+            display: none;
             flex-direction: column;
             height: 230px;
             align-items: center;
@@ -713,7 +78,7 @@
         }
         .mod_maker_username {
             font-size: 12px;
-            color: grey;
+            color: rgb(112, 141, 211);
         }
         .play_button_text {
             color: rgba(0,0,0,0);
@@ -780,6 +145,81 @@
         }
     </style>
     <script>
-        
+        const mod_preview_template = document.getElementById("modPreviewTemplate")
+        const mod_display = document.getElementById("mainModPage")
+        let music = new Audio("Music.mp3")
+        music.play()
+        async function fetchUserName(uuid) {
+            try {
+                const response = await fetch(`https://users.roblox.com/v1/users/${uuid}`);
+                if (!response.ok) {
+                    throw new Error(`http err - stat: ${response.status}`);
+                }
+                const data = await response.json();
+                return data.name;
+            } catch (error) {
+                console.error("fetch err", error.message);
+                return null;
+            }
+        }
+        function clearModPage() {
+            mod_display.innerHTML = ""
+        }
+        function loadMods(cat) {
+            clearModPage()
+            fetch(`${cat}.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`err - stat: ${response.status}`)
+                }
+                return response.json()
+            })
+            .then(data => {
+                data.mods.forEach(element => {
+                    let cloned = mod_preview_template.cloneNode(true)
+                    let modCreator = cloned.getElementsByClassName("mod_maker_username")[0]
+                    let modName = cloned.getElementsByClassName("mod_name")[0]
+                    let modBriefDescription = cloned.getElementsByClassName("mod_small_desc")[0]
+                    let modImage = cloned.getElementsByClassName("mod_image")[0]
+                    let modRating = cloned.getElementsByClassName("mod_rating")[0]
+                    let playButton = cloned.getElementsByClassName("play_button_text")[0]
+                    let parent = cloned.parentElement
+                    mod_display.appendChild(cloned)
+                    playButton.href = "https://www.roblox.com/games/"+element.placeId
+                    modImage.style.backgroundImage = element.thumbnail.value
+                    modName.textContent = element.name
+                    modBriefDescription.textContent = element.description.brief
+                    modRating.textContent = "Rating: "+Math.round(element.rating)+"%"
+                    modImage.style.backgroundImage = "url(Placeholder.jpg)";
+                    if (element.creator.isGroup === false) {
+                        modCreator.href = "https://roblox.com/users/"+element.creator.id
+                        modCreator.textContent = "Creator's profile"
+                    } else {
+                        modCreator.textContent = "Group link"
+                        modCreator.href = "https://www.roblox.com/communities/"+element.creator.id
+                    }
+                    cloned.style.display = "flex"
+                });
+            })
+        }
+        loadMods("Main")
+        document.getElementById("main").onclick = function () {
+            loadMods("Main")
+        }
+        document.getElementById("kaizo").onclick = function () {
+            loadMods("Kaizo")
+        }
+        document.getElementById("modzones").onclick = function () {
+            loadMods("Modzones")
+        }
+        document.getElementById("other").onclick = function () {
+            loadMods("Other")
+        }
+        document.getElementById("unreleased").onclick = function () {
+            loadMods("Unreleased")
+        }
+        document.getElementById("all").onclick = function () {
+            loadMods("All")
+        }
     </script>
 </html>

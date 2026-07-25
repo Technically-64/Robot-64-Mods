@@ -1,0 +1,105 @@
+{
+    "success": true,
+    "mods": [
+        {
+            "name": "Robot 64 Corruptor",
+            "description": {
+                "brief": "Enjoy the chaos of a completely broken game, with custom settings!",
+                "full": "You in for chaos? This mod attempts to screw up as many aspects of the code as possible to create a totally broken game."
+            },
+            "placeId": 10258513755,
+            "creator": {
+                "id": 71510352,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18707830995",
+                "yOffset": 25
+            },
+            "rating": 93.481041196524,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Ultimate Randomizer",
+            "description": {
+                "brief": "Randomizes many aspects of the game for a new experience!",
+                "full": "My own spin on a randomizer game, here you can make many aspects of the game random such as warps, skins, music, sound effects and more!"
+            },
+            "placeId": 9838602887,
+            "creator": {
+                "id": 71510352,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18707830995",
+                "yOffset": 25
+            },
+            "rating": 88.98293360017,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 64 Manhunt test",
+            "description": {
+                "brief": "A testing place for a manhunt gamemode within Robot 64!",
+                "full": "A mod with code to allow a manhunt experience in Robot 64 with hunter and runner teams, spectating and many more commands. Check the game's description page for them all!"
+            },
+            "placeId": 8364762738,
+            "creator": {
+                "id": 132435007,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=8364762738&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 82.150956667603,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "robot 64 build2gether",
+            "description": {
+                "brief": "You ever wanted to collaborate on building a level with your friends? Now you can with build2gether!",
+                "full": "You ever wanted to collaborate on building a level with your friends? Now you can with build2gether!"
+            },
+            "placeId": 13212773206,
+            "creator": {
+                "id": 455649754,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=13212773206&width=1280&height=720&format=png",
+                "yOffset": -460
+            },
+            "rating": 76.809602965942,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "robot 64: duochar mode",
+            "description": {
+                "brief": "Robot 64 with two character spheres, leading to interesting buggy physics!",
+                "full": "A mod where you can control two characters by warping your POV between them by middle clicking your mouse."
+            },
+            "placeId": 9914137887,
+            "creator": {
+                "id": 171369101,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=9914137887&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 41.554054054054,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        }
+    ]
+}
