@@ -1,0 +1,505 @@
+{
+    "success": true,
+    "mods": [
+        {
+            "name": "Robot 64 Halloween Hack",
+            "description": {
+                "brief": "GO TRICK OR TREATING!!!!",
+                "full": "After an undefined amount of time after the events of Robot 64, Dr. Smarchibliss has brought back Beebo for one very important reason:\r\nGO TRICK OR TREATING!!!!"
+            },
+            "placeId": 73971056559416,
+            "creator": {
+                "id": 624548458,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/125512034055485",
+                "yOffset": 0
+            },
+            "rating": 91.029705980061,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Retro 64",
+            "description": {
+                "brief": "Experience Robot 64 just like the old days!",
+                "full": "Experience Robot 64 in another view! You should get really RETRO this time! with the most accurate Nintendo 64 style you have ever seen in your life!!!!!\r\n\r\nThis is a mod that recreated Robot 64 in actual Nintendo 64 style! All credits to zKevin!"
+            },
+            "placeId": 101387012617610,
+            "creator": {
+                "id": 35031971,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=101387012617610&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 89.697645702953,
+            "timeAdded": -1774119889,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 24: Treble & Bass",
+            "description": {
+                "brief": "BETA DEMO 2.5 IS HERE!",
+                "full": "Many years before the events of Robot Sixty-Four, back when the sun was Jolly and Happy, and when people were somewhat normal, a scientist that went by the name of Professor PalChibliss made a Robot called Treble. Unfortunately, Treble went rogue and started causing trouble across Papatopia. So, Prof. Pal made Bass, a similar yet more stable robot. Bass was tasked to track down and deactivate Treble."
+            },
+            "placeId": 18363181565,
+            "creator": {
+                "id": 3230242626,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=18363181565&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 89.19384411876,
+            "timeAdded": 0,
+            "offersTeleport": true,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Robot 64 Tag",
+            "description": {
+                "brief": "A mod where you can play tag with many other players on unique maps with features like modifiers!",
+                "full": "A mod that lets you play tag with other Beebos!\r\nRecommended that you play on pc and have good wifi for the best experience.\r\nThere are many maps and a custom lobby!"
+            },
+            "placeId": 15633203115,
+            "creator": {
+                "id": 1641078663,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/75057703780167",
+                "yOffset": 0
+            },
+            "rating": 88.41371423506,
+            "timeAdded": 0,
+            "offersTeleport": true,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Robot 64 Revise",
+            "description": {
+                "brief": "A mod that reimagines the Candy Aquarium and New Neocity with great design!",
+                "full": "Robot 64 Revise is a new mod that aims to reimagine what Candy Aquarium and New Neocity could have been with great designs and features!"
+            },
+            "placeId": 15836468076,
+            "creator": {
+                "id": 1688791561,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=15836468076&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 88.360562140163,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "ttttt tt",
+            "description": {
+                "brief": "This is a discontinued project which aimed to be a full fledged sequel to the original game.",
+                "full": "This is a discontinued project which aimed to be a full fledged sequel to the original game, the movement is bastly different and the levels are entirely new. Just beware that this game can be quite difficult for no reason and hard to understand at times, the levels can be a bit ugly and the dialogue is HORRIBLE."
+            },
+            "placeId": 109831293186728,
+            "creator": {
+                "id": 366084858,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/137321390161603",
+                "yOffset": 0
+            },
+            "rating": 86.337822147259,
+            "timeAdded": 1771190991,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "[BETA] Test Robot 64",
+            "description": {
+                "brief": "Dr. Smar is testing Beebo",
+                "full": "Dr. Smar is testing Beebo to see if he's strong enough for the real world. Finish the test and defeat Dr. Smar!"
+            },
+            "placeId": 95624277911758,
+            "creator": {
+                "id": 35906634,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=95624277911758&width=1280&height=720&format=png",
+                "yOffset": 50
+            },
+            "rating": 85.407332187782,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Adventure 64",
+            "description": {
+                "brief": "An open-world-like Robot 64 mod.",
+                "full": "Dr. Smar is hosting a party and all of Papatopia is invited! But who will get all the snacks? That's right, Beebo!\r\nExplore 14 worlds*, collect ice cream, customize Beebo, and most importantly, have fun!\r\n*only one world currently exists, sorry!"
+            },
+            "placeId": 118764745282170,
+            "creator": {
+                "id": 1726394749,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/106041118942094",
+                "yOffset": 0
+            },
+            "rating": 85.019278979263,
+            "timeAdded": 0,
+            "offersTeleport": true,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "PlayDB [Revival]",
+            "description": {
+                "brief": "A revival of the good ol' PlayDB!",
+                "full": "PlayDB [Revival] is a revival of the mod PlayDB by EmK530. It is an attempt to allow people to relive what they used to do and acts as a way for people to view and play their old levels. This mod includes MAKE and PLAY, so you can also create brand new levels."
+            },
+            "placeId": 18700559593,
+            "creator": {
+                "id": 1050163830,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/78495901518716",
+                "yOffset": 75
+            },
+            "rating": 83.995630653739,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Robot 64 Racing",
+            "description": {
+                "brief": "A mod where you race other players from the start of a level to a certain ice cream!",
+                "full": "Robot 64 Racing is a Robot 64 Mod where you race with others to get the ice cream first. You can get custom hats, skins, and dots! You can also submit new maps, lobbies, hats, skins, or dots for me to add to the game as well!"
+            },
+            "placeId": 15676619017,
+            "creator": {
+                "id": 412789923,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=15676619017&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 83.391350451881,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Robot 64 Spleef: Again",
+            "description": {
+                "brief": "Play spleef... with the Robot 64 engine!",
+                "full": "Play spleef with the Robot 64 engine!\r\nFeatures three abilities and a few modifiers.\r\nCredits to TheCoolChocolate for inspiration & the original Robot 64 Spleef and zKevin for the Robot 64 engine"
+            },
+            "placeId": 114190300640061,
+            "creator": {
+                "id": 2446099892,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/103188854646974",
+                "yOffset": 0
+            },
+            "rating": 83.333333333333,
+            "timeAdded": 1784053019,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "ROBOT 64 TYCOON",
+            "description": {
+                "brief": "NEW Robot 64 Tycoon. Build your empire! Collect gears and get that sweet sweet candy. TYCOON TYCOON NEW",
+                "full": "WELCOME TO THE BRAND SPANKIN' NEW Robot 64 Tycoon! BUILD UP YOUR TYCOON EMPIRE WHILE GATHERING CANDY AND GEARS ALONG THE WAY! SHOW OFF TO YOUR FOES WITH YOUR EPIC GEARS SUCH AS: Grappling Hook, Gravity Coil AND SO MUCH MORE!\r\n\r\nTags (ignore):\r\nTYCOON TYCOON TYCOON TYCOON NEW NEW SUPERHERO"
+            },
+            "placeId": 16393392548,
+            "creator": {
+                "id": 1641078663,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18979944901",
+                "yOffset": 0
+            },
+            "rating": 81.739477967658,
+            "timeAdded": 1723837296,
+            "offersTeleport": true,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Robot 67",
+            "description": {
+                "brief": "A fanmade sequel to Robot 64 with a new story and 6 new worlds to play!",
+                "full": "Robot SixtySeven is a fan made sequel to Robot SixtyFour, where there's a giant lifeform in outer space! You'll need to explore six new levels to collect more ice cream and stop it before it destroys the world!"
+            },
+            "placeId": 15571150529,
+            "creator": {
+                "id": 1536368475,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/99770845937511",
+                "yOffset": 0
+            },
+            "rating": 80.939849326561,
+            "timeAdded": -1775855904,
+            "offersTeleport": false,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "R6646",
+            "description": {
+                "brief": "Delve deeper and deeper into Beebo's unconscious mind.",
+                "full": "This mod has a heavy emphasis on exploration! - Beebo is in the middle of booting up and he'll tasked with something he may or may not be prepared for! It is your duty to help him gain knowledge, as the real adventure has not begun just yet!"
+            },
+            "placeId": 81499697878984,
+            "creator": {
+                "id": 443332292,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/77637810644930",
+                "yOffset": 0
+            },
+            "rating": 80.894935687179,
+            "timeAdded": 1752527898,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 64: Ultimate Descent [BETA]",
+            "description": {
+                "brief": "100 floors of glitchless challenges for advanced casual players!",
+                "full": "work in progress but currently planned to be 100 glitchless floors of pain and misery and death and yippee (with plenty of secrets!!)\r\nall glitches are allowed including translation feedback\/rmlaunches or whatever because idk how to patch them and they make the game more fun for more experienced players\r\nif you see me in-game please give me feedback on how to improve it, this game is in very early testing and i need all the help i can get on making it better\r\na lot like robot 64 supreme homerun by bigheadbozo (which is also inspired by kaizo robot 64 final homerun)"
+            },
+            "placeId": 116106326921630,
+            "creator": {
+                "id": 1148902552,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=116106326921630&width=1280&height=720&format=png",
+                "yOffset": -480
+            },
+            "rating": 75.407006840101,
+            "timeAdded": 1748132111,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 64 Trivia",
+            "description": {
+                "brief": "A mod where you can test your robot 64 knowledge and experience many weird events!",
+                "full": "Eyy there bucko!! It's me! Rusty! Recognize me? I made a trivia show where ya can see how well ya really know robot 64!! You MAY encounter SOME odd events happening but that's no biggie!!"
+            },
+            "placeId": 16016827692,
+            "creator": {
+                "id": 1688791561,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=16016827692&width=1280&height=720&format=png",
+                "yOffset": -500
+            },
+            "rating": 75.271846221813,
+            "timeAdded": 1722979580,
+            "offersTeleport": false,
+            "consoleSupportMode": 1
+        },
+        {
+            "name": "Robot 64: Supreme Homerun",
+            "description": {
+                "brief": "A challenging mod consisting of 100 floors of parkour, puzzles, and pain!",
+                "full": "This mod is heavily inspired by Kaizo Robot 64's Final Homerun, but it's designed to be possible, and fair towards casual players! That doesn't mean it's still not difficult though. Expect tight jumps, long gaps, strange movement, and more!"
+            },
+            "placeId": 18375788916,
+            "creator": {
+                "id": 85084925,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/18932764577",
+                "yOffset": 0
+            },
+            "rating": 74.264842155517,
+            "timeAdded": 1726300125,
+            "offersTeleport": false,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Endless Robot 64",
+            "description": {
+                "brief": "A mod about seeing how long you can last in an infinite gameplay loop of randomly generated levels!",
+                "full": "Endless Robot 64 is a mod about seeing how long you can last in an infinite gameplay loop of randomly generated Robot 64 levels!"
+            },
+            "placeId": 13924216331,
+            "creator": {
+                "id": 641240403,
+                "isGroup": true
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=13924216331&width=1280&height=720&format=png",
+                "yOffset": 175
+            },
+            "rating": 71.206809381787,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 1
+        },
+        {
+            "name": "Smirk 64",
+            "description": {
+                "brief": "Play as Smirkie, on a quest to stop the corrupt director Cool Guy.",
+                "full": "Smirk 64 is a vibrant 3D platformer where you play as Smirkie, on a quest to stop Cool Guy. Journey through 9 vast worlds, collecting Smirks to unlock new levels."
+            },
+            "placeId": 17197546441,
+            "creator": {
+                "id": 326229474,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=17197546441&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 69.999788657754,
+            "timeAdded": -1767157032,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Robot 64 + Plus",
+            "description": {
+                "brief": "Robot 64 with a new Frontflip move, some graphical changes, and new levels.",
+                "full": "Robot 64 with a new Frontflip move, some graphical changes, and new levels."
+            },
+            "placeId": 14374856202,
+            "creator": {
+                "id": 16135,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=14374856202&width=1280&height=720&format=png",
+                "yOffset": -400
+            },
+            "rating": 69.891431457627,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Nimbus!",
+            "description": {
+                "brief": "Play as nimbu, exploring weird, strange and wacky worlds to collect gumdrops and destroy the moon!",
+                "full": "Nimbus is a 3D Platformer Game! This uses the official robot 64 engine release by zkevin himself!\r\nYou play as a robot named nimbu! Explore weird, strange and wacky worlds! Collect all of the gumdrops to destroy the moon! \r\nDo you have what it takes? "
+            },
+            "placeId": 15713855945,
+            "creator": {
+                "id": 182673536,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=15713855945&width=1280&height=720&format=png",
+                "yOffset": 100
+            },
+            "rating": 66.852566946628,
+            "timeAdded": 1721902616,
+            "offersTeleport": true,
+            "consoleSupportMode": 3
+        },
+        {
+            "name": "Robot 64 Leveler",
+            "description": {
+                "brief": "Complete levels, get ice creams.",
+                "full": "In this Robot 64 mod, you have to beat levels to get ice creams. And what's the purpose of getting ice creams, you may or may not ask? To unlock even more levels.. so you can get even more ice creams!"
+            },
+            "placeId": 19004319223,
+            "creator": {
+                "id": 1896080740,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/138686958027221",
+                "yOffset": 0
+            },
+            "rating": 66.012974068278,
+            "timeAdded": 1742039113,
+            "offersTeleport": true,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Knoddy Simulator [BETA]",
+            "description": {
+                "brief": "Clean Knoddy's Resort with your friends!",
+                "full": "Knoddy has made 8 clones of himself and is using them as janitors. Take control of them with your friends and clean up the resort, collect badges and cosmetics, and play around with grabbable objects!"
+            },
+            "placeId": 88747990633467,
+            "creator": {
+                "id": 95252593,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=88747990633467&width=1280&height=720&format=png",
+                "yOffset": -450
+            },
+            "rating": 57.490496643769,
+            "timeAdded": 0,
+            "offersTeleport": true,
+            "consoleSupportMode": 0
+        },
+        {
+            "name": "Super Robot Odyssey",
+            "description": {
+                "brief": "A mod inspired by Odyssey with a new moveset, powerups, new and modified levels, and more to come!",
+                "full": "Super Robot Odyssey is a mod inspired by Odyssey with new powerups, a new moveset and some modified levels for the movement; Hopefully eventually all new levels and the hub won't use anything from zKevin."
+            },
+            "placeId": 14838413991,
+            "creator": {
+                "id": 45223049,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=14838413991&width=1280&height=720&format=png",
+                "yOffset": 0
+            },
+            "rating": 56.765945505426,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 2
+        },
+        {
+            "name": "Robot 64: Let There Be Light",
+            "description": {
+                "brief": "Save a paralel papatopia from a mysterious being.",
+                "full": "NOTE: This mod is currently in hiatus. In an entirely separate universe from Robot 64, when the sun was smiling, there was a danger that may destroy Papatopia, some weird meteors have fallen all around the world, strange! But then, a young scientist named Eman has been noticing the chaos, so he biult a robot named Uigi, they will collect lightbulbs to try and stop this madness."
+            },
+            "placeId": 131124760625708,
+            "creator": {
+                "id": 2358152336,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "rbxassetid:\/\/128282111184686",
+                "yOffset": 0
+            },
+            "rating": 49.59304870321,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 0
+        }
+    ]
+}
