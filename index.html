@@ -178,7 +178,7 @@
                     let playButton = cloned.getElementsByClassName("play_button_text")[0]
                     let parent = cloned.parentElement
                     mod_display.appendChild(cloned)
-                    playButton.href = "https://www.roblox.com/games/"+element.placeId
+                    playButton.href = "roblox://placeId="+element.placeId+"/"
                     modImage.style.backgroundImage = element.thumbnail.value
                     modName.textContent = element.name
                     modBriefDescription.textContent = element.description.brief
