@@ -30,7 +30,7 @@
             display:flex;
             gap: 10px;
             background-color: rgb(31, 30, 36);
-            align-items: center;
+            align-items: start;
             flex-direction: column;
         }
         .mod_rating {
@@ -39,37 +39,45 @@
         .topbar {
             border-radius: 3px;
             background-color: rgba(0, 0, 0, 0);
-            width: 800px;
+            width: 100%;
             display: flex;
             gap: 10px;
             flex-direction: row;
-            align-items: center;
+            align-items: start;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: start;
             height: fit-content;
         }
         .mainmods {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: start;
             gap: 10px;
             border-radius: 3px;
             padding: 0;
             background-color: rgba(0, 0, 0, 0);
-            width: 800px;
+            width: 100%;
             margin: 0;
             height: 100%;
         }
         .mod_preview {
             background-color: rgba(0, 0, 0, 0.353);
-            width: 300px;
+            width: 279px;
             padding: 5px;
             gap: 5px;
             border-radius: 6px;
+            border-width: 1px;
+            border-spacing: -1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, 0.07);
             display: none;
             flex-direction: column;
-            height: 230px;
+            height: 250px;
             align-items: center;
+            transition: all 0.5s;
+        }
+        .mod_preview:hover {
+            background-color: rgba(26, 26, 26, 0.353);
         }
         .newmodoutline {
             border-style: solid;
@@ -123,10 +131,11 @@
         }
         .play_button {
             background-image: url(PlayButton.png);
+            background-color: rgba(0,0,0,0);
             color: rgba(0,0,0,0);
             background-size: 100% 100%;
             border-width: 0;
-            width: 40%;
+            width: 30%;
             margin-top: 7px;
             border-radius: 4px;
             height: 30px;
