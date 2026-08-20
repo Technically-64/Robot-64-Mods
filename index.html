@@ -25,6 +25,18 @@
                 </div>
             </div>
         </div>
+        <div id="modDetails" class="mod_details">
+            <a class="mod_name">Robot 64 Tag</a>
+            <a id="modCreator" class="mod_maker_username"></a>
+            <div id="modImage" class="mod_image mod_image_bigger"></div>
+            <a class="mod_rating mod_rating_bigger">90%</a>
+            <div id="bottom" class="mod_bottom_container mod_full_desc_container">
+                <a id="briefDescription" class="mod_small_desc mod_full_desc">hello i am your neighbor</a>
+                <button id="playButton" class="play_button play_button_big">
+                    <a id="playButtonLink" class="play_button_text">Play</a>
+                </button>
+            </div>
+        </div>
     </body>
     <style>
         body {
@@ -36,6 +48,10 @@
         }
         .mod_rating {
             color: greenyellow
+        }
+        .mod_rating_bigger {
+            color: greenyellow;
+            font-size: 22;
         }
         .topbar {
             border-radius: 3px;
@@ -77,6 +93,22 @@
             align-items: center;
             transition: all 0.5s;
         }
+        .mod_details {
+            background-color: rgba(0, 0, 0, 0.353);
+            width: 100%;
+            padding: 15px;
+            gap: 10px;
+            border-radius: 6px;
+            border-width: 1px;
+            border-spacing: -1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, 0.07);
+            display: none;
+            flex-direction: column;
+            height: 500px;
+            align-items:start;
+            transition: all 0.5s;
+        }
         .mod_preview:hover {
             background-color: rgba(26, 26, 26, 0.353);
         }
@@ -114,9 +146,18 @@
         a {
             color: white;
         }
+        .mod_name {
+            color: white;
+            font-size: 22;
+        }
         .mod_bottom_container {
             width: 100%;
             display: flex;
+        }
+        .mod_full_desc_container {
+            width: 100%;
+            gap: 20px;
+            display: grid;
         }
         .mod_small_desc {
             margin-top: 5px;
@@ -124,11 +165,27 @@
             margin-left: 5px;
             width: 100%;
         }
+        .mod_full_desc {
+            margin-top: 5px;
+            color: rgb(189, 189, 189);
+            margin-left: 5px;
+            height: 100%;
+            font-size: 24;
+            width: 100%;
+        }
         .mod_image {
+            background-image: url(Placeholder.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             height: 86px;
             width: 200px;
+        }
+        .mod_image_bigger {
+            background-image: url(Placeholder.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 106px;
+            width: 250px;
         }
         .play_button {
             background-image: url(PlayButton.png);
@@ -136,11 +193,20 @@
             color: rgba(0,0,0,0);
             background-size: 100% 100%;
             border-width: 0;
-            width: 30px;
-            margin-left: 40px;
             margin-top: 7px;
+            width: 30px;
             border-radius: 4px;
             height: 30px;
+        }
+        .play_button_big {
+            background-image: url(PlayButton.png);
+            background-color: rgba(0,0,0,0);
+            color: rgba(0,0,0,0);
+            background-size: 100% 100%;
+            border-width: 0;
+            width: 50px;
+            border-radius: 4px;
+            height: 50px;
         }
         .title {
             padding: 5px;
@@ -158,6 +224,7 @@
     <script>
         const mod_preview_template = document.getElementById("modPreviewTemplate")
         const mod_display = document.getElementById("mainModPage")
+        let mod_details = document.getElementById("modDetails")
         let can_play_music = true
         let music = new Audio("Music.mp3")
         music.loop = true
@@ -168,7 +235,7 @@
             clearModPage()
             if (can_play_music) {
                 can_play_music = false
-                document.getElementById("welcomeMessage").textContent = "Original Robot 64 Mods by EmK530 - Website by Azzy"
+                document.getElementById("welcomeMessage").textContent = "Original Robot 64 Mods by EmK530 - Website by Azzy // Tip: Click a mod to view details! When viewing a mod's full details, press on a category to return."
                 music.play()
             }
             fetch(`${cat}.json`)
@@ -203,6 +270,28 @@
                         modCreator.href = "https://www.roblox.com/communities/"+element.creator.id
                     }
                     cloned.style.display = "flex"
+                    cloned.onclick = function() {
+                        clearModPage()
+                        let display = mod_details.cloneNode(true)
+                        let fullModCreator = display.getElementsByClassName("mod_maker_username")[0]
+                        let fullModName = display.getElementsByClassName("mod_name")[0]
+                        let fullModDescription = display.getElementsByClassName("mod_small_desc")[0]
+                        let fullModRating = display.getElementsByClassName("mod_rating")[0]
+                        let fullPlayButton = display.getElementsByClassName("play_button_text")[0]
+                        fullPlayButton.href = "roblox://placeId="+element.placeId+"/"
+                        fullModName.textContent = element.name
+                        fullModDescription.textContent = element.description.full
+                        fullModRating.textContent = "Rating: "+Math.round(element.rating)+"%"
+                        if (element.creator.isGroup === false) {
+                            fullModCreator.href = "https://roblox.com/users/"+element.creator.id
+                            fullModCreator.textContent = "Creator's profile"
+                        } else {
+                            fullModCreator.textContent = "Group link"
+                            fullModCreator.href = "https://www.roblox.com/communities/"+element.creator.id
+                        }
+                        mod_display.appendChild(display)
+                        display.style.display = "flex"
+                    }
                 });
             })
         }
