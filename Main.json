@@ -121,6 +121,26 @@
             "offersTeleport": false,
             "consoleSupportMode": 0
         },
+                {
+            "name": "Robot 64: Intermediate Edition",
+            "description": {
+                "brief": "A harder version of Robot 64 that's easier than Kaizo Robot 64.",
+                "full": "Basically Robot 64 but inbetween the difficultly of it and Kaizo Robot 64 with some new or replaced icecreams and new features!"
+            },
+            "placeId": 104080015648374,
+            "creator": {
+                "id": 3132344689,
+                "isGroup": false
+            },
+            "thumbnail": {
+                "value": "https:\/\/www.roblox.com\/asset-thumbnail\/image?assetId=95624277911758&width=1280&height=720&format=png",
+                "yOffset": 50
+            },
+            "rating": 85.43,
+            "timeAdded": 0,
+            "offersTeleport": false,
+            "consoleSupportMode": 3
+        },
         {
             "name": "[BETA] Test Robot 64",
             "description": {
