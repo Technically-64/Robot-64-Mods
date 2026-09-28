@@ -269,6 +269,9 @@
                         modCreator.textContent = "Group link"
                         modCreator.href = "https://www.roblox.com/communities/"+element.creator.id
                     }
+                    if (element.description.full.includes("discontinued")) {
+                        modName.style.color = "#F54927";
+                    }
                     cloned.style.display = "flex"
                     cloned.onclick = function() {
                         clearModPage()
